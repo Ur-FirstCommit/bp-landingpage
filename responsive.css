@@ -1,0 +1,4 @@
+/* Final small-screen guard: retain the angled terminal backing without creating horizontal overflow. */
+@media (max-width: 650px) {
+  .terminal-shadow { right: 0; }
+}
